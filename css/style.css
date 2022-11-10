@@ -1,0 +1,676 @@
+body{
+  padding: 0;
+  margin: 0;
+}
+
+.nav{
+  display: flex;
+  height: 15vh;
+  width: 100%;
+}
+
+.nav-brand{
+  flex: 2;
+  position: relative
+}
+
+.nav-menu{
+  flex: 4;
+  position: relative;
+  background-color: red;
+}
+
+.nav-br{
+  position: absolute;
+  height: 100%;
+  width: 40px;
+  background-color: red;
+  transform: skew(20deg); 
+  left: -20px;
+}
+
+.adress-menu{
+  position: relative;
+  width: 60%;
+  background-color: red;
+  height: 50%;
+  bottom: -100%;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 2;
+}
+
+
+.adress-menu-br{
+  position: absolute;
+  height: 100%;
+  width: 30px;
+  background-color: red;
+  transform: skew(20deg);
+  left: -15px;
+}
+
+.nav-brand img {
+  width: 150px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.nav .nav-menu .navbar{
+  position: absolute;
+  top: 50%;
+  left: 15%;
+  transform: translate(-15%,-50%);
+}
+
+.nav .nav-menu .navbar .navbar-collapse .navbar-nav .nav-item{
+  padding: 5px;
+  margin: 0 18px;
+}
+
+.nav .nav-menu .navbar .navbar-collapse .navbar-nav .nav-item .nav-link{
+  font-size: 17px;
+  font-weight: 550;
+}
+
+.adress-menu .adress{
+  margin-left: 50px;
+  width: 90%;
+  padding: 5px;
+  position: relative;
+  top: 50%;
+  left: 4%;
+  /* background-color: black; */
+  transform: translate(-10%,-50%);
+}
+
+.adress-menu .adress a{
+  color: white;
+  font-size: 17px;
+  text-decoration: none;
+}
+
+/* soat 21:06da tugatdim 1-qism */
+
+/* 21:12da pasga tushibketdim 41 sekund */
+
+/* 2-qism */
+
+.slide .carousel-inner .carousel-item{
+  position: relative;
+}
+
+.slide .carousel-inner .carousel-item .carousel-info{
+  position: absolute;
+  top: 20%;
+  left: 20%;
+}
+
+.carousel-info .ingichka{
+  font-size: 65px;
+  font-weight: 500;
+  font-family: sans-serif;
+}
+
+.bold{
+  font-size: 64px;
+  font-weight: 600;
+  font-family: sans-serif;
+}
+
+.carousel-info p{
+  width: 750px;
+}
+
+.carousel-info a{
+  padding: 12.5px 60px;
+  background-color: white;
+  color: crimson;
+  border-radius: 30px;
+  transition: .3s ease;
+  margin: 15px 0;
+}
+
+.carousel-info a:hover{
+  background-color: rgba(255, 255, 255, 0.959);
+  color: crimson;
+}
+
+.carousel-info i{
+  border: 1px solid white;
+  padding: 13px 13.5px;
+  border-radius: 50%;
+  margin-top: 10px;
+  margin-right: 10px;
+  transition: .4s ease-in-out;
+}
+
+.carousel-info i:hover{
+  cursor: pointer;
+  background-color: crimson;
+  border: 1px solid crimson;
+}
+
+.slide .carousel-control-prev{
+  width: 70px;
+  height: 70px;
+  background-color: red;
+  border-radius: 50%;
+  top: 50%;
+  left: 5%;
+  transform: translate(-5%,-50%);
+}
+
+.slide .carousel-control-next{
+  width: 70px;
+  height: 70px;
+  background-color: red;
+  border-radius: 50%;
+  top: 50%;
+  right: 5%;
+  transform: translate(-5%,-50%);
+}
+
+/* 22:43da tugatdim */
+
+.about h4{
+  font-size: 30px;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+.about h2{
+  font-size: 50px;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+.about p{
+  line-height: 30px;
+  font-size: 17px;
+  font-weight: 300;
+  letter-spacing: .5px;
+}
+
+.product .card{
+  left: 50%;
+  transform: translateX(-50%);
+  height: 400px;
+}
+
+.product .card img{
+  width: 100px !important;
+}
+
+hr{
+  height: 7px;
+  background-color: rgb(255, 0, 85);
+  opacity: 1;
+  border: none;
+}
+
+.title h1{
+  font-size: 50px;
+  font-weight: bold;
+  font-family: sans-serif;
+  margin-top: 100px;
+}
+
+/* 4-qism 23:46da boshladim */
+/* 23:48da hojatga kirdim 1:40-minut */
+/* 00:01da chiqdim */
+
+.carousel2{
+  height: 100vh;
+  width: 100%;
+}
+
+.carousel2 h1{
+  font-size: 45px;
+  font-family: sans-serif;
+  font-weight: bold;
+  margin: 50px 150px;
+}
+
+.carousel2 .carousel-inner{
+  height: 80vh;
+  width: 100%;
+  background-color: rgb(4, 1, 20);
+}
+
+
+.carousel2 .carousel-inner .carousel-item{
+  width: 80%;
+  height: 80%;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background-color: rgb(4, 1, 20);
+  display: inline-block;
+  overflow: hidden;
+}
+/* shakl - 1 */
+.carousel2 .carousel-inner .carousel-item .carousel-shakl-1{
+  width: 70%;
+  height: 85%;
+  background-color: #dbdbdb;
+  border: 1px solid #dbdbdb;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%) skew(-30deg);
+}
+
+/* shakl- 2 */
+.carousel2 .carousel-inner .carousel-item .carousel-shakl-2{
+  width: 70%;
+  height: 85%;
+  background-color: #dbdbdb;
+  border: 1px solid #dbdbdb;
+  position: absolute;
+  top: 50%;
+  left: -100%;
+  transform: translate(-50%,-50%) skew(-30deg);
+}
+
+/* shakl - 3 */
+.carousel2 .carousel-inner .carousel-item .carousel-shakl-3{
+  width: 70%;
+  height: 85%;
+  background-color: #dbdbdb;
+  border: 1px solid #dbdbdb;
+  position: absolute;
+  top: 50%;
+  left: 200%;
+  transform: translate(-50%,-50%) skew(-30deg);
+}
+
+.carousel2 .carousel-inner .carousel-item .carousel-text{
+  transform: skew(30deg);
+  text-align: center;
+  margin-top: 10%;
+}
+
+.carousel2 .carousel-inner .carousel-item .carousel-text h5{
+  margin-left: 5%;
+}
+
+
+.carousel2 .carousel-inner .carousel-item .carousel-text b{
+  margin-left: 5%;
+  color: #f2b87f;
+}
+
+
+.carousel2 .carousel-inner .carousel-item .carousel-text p{
+  margin-left: 1.5%;
+  opacity: .8;
+}
+
+
+.carousel2 .carousel-inner .carousel-item .carousel-text img{
+  margin-left: 5%;
+  margin-top: 2%;
+}
+
+.carousel2 .carousel-inner button{
+  background-color: rgba(156, 156, 156, 0.705);
+  border: none;
+  outline: none;
+  margin: 0;
+  padding: 7px 20px;
+  border-radius: 7px;
+  position: relative;
+  top: 460px;
+}
+
+.carousel2 .carousel-inner .active{
+  background-color: #ffffffe0;
+}
+
+.contact-us{
+  width: 100%;
+  margin: 0;
+  padding-top: 20px;
+}
+
+.contact-us > h1{
+  font-size: 44px;
+  font-weight: 700;
+  margin: 40px 150px;
+  color: black;
+}
+
+
+.contact-us .contact-adress .row{
+  padding: 30px;
+  box-shadow: 2px 2px 30px #00000023;
+  border-radius: 10px;
+}
+
+.footer-adress{
+  background-color: #00000e;
+  width: 100%;
+  padding: 30px;
+}
+
+.footer-adress .footer-info{
+  width: 60%;
+  position: relative ;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.footer-adress hr{
+  height: 1px;
+  background-color: white;
+}
+
+.footer-adress .footer-info{
+  width: 60;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+
+.footer-adress .footer-info h1{
+  padding-bottom: 2px;
+}
+
+.footer-adress .footer-info h1{
+  padding-bottom: 2px;
+}
+
+.footer-adress .footer-info p{
+  font-size: 18px;
+  padding: 0px;
+}
+
+
+.footer-adress .footer-info ul{
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 20px;
+}
+
+.footer-adress .footer-info ul li{
+  list-style: none;
+}
+
+.footer-adress .footer-info ul li a{
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.footer-adress .footer-info div i{
+  border: 1px solid white;
+  padding: 13px 13.5px;
+  border-radius: 50%;
+  margin-top: 10px;
+  margin-right: 10px;
+  transition: .4s ease-in-out;
+}
+
+.footer-adress .footer-info div i:hover{
+  background-color: crimson;
+  border: 1px solid crimson;
+  cursor: pointer;
+}
+
+/* 03:07da tugatdim 5-qismni uhladim */
+/* 13:46da turdim git hubga yukladim */
+/* 14:23da tugatdim githubga yuklashni */
+
+/* 14:23da boshladim */
+
+.nav-menu-new{
+  width: 80%;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  height: 50px;
+  background-color: rgb(0, 0, 0);
+  transform: translate(-50%,-50%);
+  z-index: 3;
+  display: none;
+}
+
+.nav-menu-new .menu-btn{
+  width: 100%;
+  height: 50px;
+} 
+
+.nav-menu .fa-bars,
+.nav-menu .fa-times{
+  font-size: 24px;
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  border: none;
+  outline: none;
+  background-color: transparent;
+  color: white;
+
+}
+
+.nav-menu-new .menu-new{
+  width: 100%;
+  background-color: #ffffff;
+  overflow: hidden;
+  height: 0px;
+}
+
+.nav-menu-new .menu-new ul{
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  background-color: #ffffff;
+  text-align: start;
+  padding-bottom: 35px;
+}
+
+.nav-menu-new .menu-new ul li{
+  border-bottom: 1px solid black;
+  padding: 5px;
+  margin-left: 15px;
+  margin-right: 15px;
+  font-size: 17px;
+  list-style: none;
+  margin-bottom: 5px;
+}
+
+/* 6-qismni birinchisi tugadi 15:33da */
+
+/* 14:56da hojatga kirdim */
+/* 15:18da chiqdim */
+
+
+@media screen and (max-width: 1200px) {
+    .nav .nav-menu .adress-menu{
+      display: none;
+    }
+
+    .product .card img{
+      width: 100px !important;
+    }
+}
+
+@media screen and (max-width: 990px){
+  .carousel .carousel-inner .carousel-item .carousel-info h1{
+    font-size: 30px;
+  }
+
+  .carousel .carousel-inner .carousel-item .carousel-info p{
+    width: 600px;
+  }
+
+  .carousel .carousel-inner .carousel-item .carousel-info i{
+    padding: 8px 8px;
+  }
+
+  .carousel .carousel-inner .carousel-item .carousel-info button{
+    padding: 7px 17px;
+  }
+
+  .nav-menu-new{
+    display: block;
+  }
+
+  .carousel .carousel-inner .carousel-item .carousel-info .btn{
+    padding: 8px 25px;
+    font-size: 17px;
+  }
+}
+
+@media screen and (max-width: 864px){
+  .carousel .carousel-inner .carousel-item .carousel-info p{
+    width: 500px;
+    margin: 0;
+  }
+
+  .carousel .carousel-inner .carousel-item .carousel-info i{
+    padding: 8px 8px;
+    font-size: 10px;
+    margin: 0;
+  }
+
+  .carousel .carousel-inner .carousel-item .carousel-info a{
+    padding: 5px 15px !important;
+    font-size: 12px !important;
+    margin-top: 2px !important;
+  }
+
+  .product .card .container img{
+    width: 100px !important;
+    right: 50%;
+  }
+
+  .product .card{
+    width: 250px;
+  }
+
+  .footer-adress .footer-info ul{
+    display: block;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .carousel .carousel-inner .carousel-item .carousel-info p{
+    display: none;
+  }
+
+  .carousel .carousel-inner .carousel-item .carousel-info a{
+    padding: 10px 20px !important;
+    font-size: 16px !important;
+    margin-top: 2px !important;
+  }
+
+  .nav{
+    flex-direction: column;
+    height: 15vh;
+  }
+
+  .nav .nav-brand{
+    flex: 1;
+    height: 5vh;
+  }
+
+  .nav .nav-menu{
+    flex: 1;
+    background-color: transparent;
+  }
+
+  .nav .nav-menu  .nav-br{
+    background-color: transparent;
+  }
+
+  .nav-menu-new{
+    background-color: red;
+  }
+
+  .carousel2 h1{
+    font-size: 32px;
+  }
+  
+  .carousel2 .carousel-inner .carousel-item .carousel-shakl-1,
+  .carousel2 .carousel-inner .carousel-item .carousel-shakl-2,
+  .carousel2 .carousel-inner .carousel-item .carousel-shakl-3
+  {
+    transform: skew(0deg) translate(-50%, -50%);
+  }
+
+
+  .carousel2 .carousel-inner .carousel-item .carousel-text{
+    transform: skew(0deg);
+  }
+
+  .slide .carousel-control-prev,
+  .slide .carousel-control-next{
+    width: 50px !important;
+    height: 50px !important;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .carousel2 .carousel-inner .carousel-item .carousel-text img{
+    width: 30px;
+    height: 30px;
+  }
+
+  .contact-us h1{
+    font-size: 25px;
+  }
+
+  .footer-adress .footer-info ul{
+    display: block;
+  }
+}
+
+@media screen and (max-width: 430px){
+  .carousel .carousel-inner .carousel-item .carousel-info {
+    display: none;
+  }
+
+  .about .col-md-6{
+    right: 50%;
+  }
+
+  .about .col-md-6 h4{
+    font-size: 25px;
+  }
+
+  .about .col-md-6 h2{
+    font-size: 30px;
+  }
+
+  .about .col-md-6 p{
+    text-align: center;
+    left: 50%;
+  }
+
+  .footer-adress .footer-info ul{
+    display: block;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .carousel2 .carousel-inner .carousel-item .carousel-text img{
+    display: none;
+  }
+}
+
+/* 17:23da tugatdim 6-qism */
+
+/* 17:23da boshladim 7-qism */

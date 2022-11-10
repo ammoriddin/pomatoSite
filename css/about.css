@@ -1,0 +1,30 @@
+.about-title{
+	width: 100%;
+	height: 30vh;
+	background-color: gainsboro;
+	position: relative;
+}
+
+.about{
+	display: flex;	
+}	
+
+.about-title h1{
+	font-size: 56px;
+	font-family: sans-serif;
+	font-weight: 800;
+	position: absolute;
+	top: 50%;
+	left: 10%;
+	transform: translate(-10%,-50%);
+}
+
+@media screen and (max-width: 769px) {
+	.about-img-2{
+		order: 1;
+	}
+
+	.about-info-2{
+		order: 2;
+	}
+}
